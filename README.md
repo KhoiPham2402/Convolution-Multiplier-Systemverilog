@@ -1,4 +1,4 @@
-# 🧠 Verilog Convolution Multiplier
+# 🧠 SystemVerilog Convolution Multiplier
 
 This project implements a **convolution-style multiplier** designed in **Verilog** using **basic building blocks** such as **AND gates** and **full adders**. The module is developed and synthesized using **Intel Quartus Prime**, targeting FPGA platforms.
 
@@ -23,11 +23,10 @@ In upcoming versions, I plan to:
 
 ## 🔧 Tools & Technologies
 
-- 🛠 **Verilog HDL**
+- 🛠 **SystemVerilog HDL**
 - 💻 **Quartus Prime** (Intel FPGA toolchain)
 - 📐 **Basic logic blocks** (FA, AND, Register)
 
 ---
 
-## 📁 File Structure (Suggested)
 

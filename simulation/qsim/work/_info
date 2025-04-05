@@ -1,0 +1,54 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/khoi-laptop/Documents/Code Verilog/convolutionIP/simulation/qsim
+vconvolutionIP
+Z1 !s110 1742115339
+!i10b 1
+!s100 CamZJ=d8fm8oV[YK:^_k50
+IBL_564bZ=ni8]oKYoAzBh2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1742115336
+8convolutionIP.vo
+FconvolutionIP.vo
+L0 31
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1742115339.000000
+!s107 convolutionIP.vo|
+!s90 -work|work|convolutionIP.vo|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+nconvolution@i@p
+vconvolutionIP_vlg_vec_tst
+R1
+!i10b 1
+!s100 @fLCCc?5J6z6ACD[b8F=E0
+IDhJdLLKXodGd@eAIYDelE1
+R2
+R0
+w1742115335
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+L0 29
+R3
+r1
+!s85 0
+31
+R4
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R5
+R6
+nconvolution@i@p_vlg_vec_tst

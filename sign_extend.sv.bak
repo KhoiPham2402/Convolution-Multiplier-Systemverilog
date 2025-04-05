@@ -1,0 +1,9 @@
+module sign_extend (
+    input [7:0] A,         // 8-bit input A
+    output [31:0] extended // 32-bit extended output
+);
+
+    // Sign extension: Extend the sign bit (bit 7 of A) to the left
+    assign extended = { {24{A[7]}}, A }; // copy bit 7 (sign bit) 24 times and concatenate with A
+
+endmodule

@@ -1,0 +1,42 @@
+module register_32_bit (
+    input [31:0] D,     // 32-bit data input
+    input clk,           // Clock input
+    input reset,         // Asynchronous reset
+    output [31:0] Q      // 32-bit data output
+);
+
+    // Create 32 D flip-flops for 32-bit register
+    d_flip_flop DFF0 (.D(D[0]),   .clk(clk), .reset(reset), .Q(Q[0]));
+    d_flip_flop DFF1 (.D(D[1]),   .clk(clk), .reset(reset), .Q(Q[1]));
+    d_flip_flop DFF2 (.D(D[2]),   .clk(clk), .reset(reset), .Q(Q[2]));
+    d_flip_flop DFF3 (.D(D[3]),   .clk(clk), .reset(reset), .Q(Q[3]));
+    d_flip_flop DFF4 (.D(D[4]),   .clk(clk), .reset(reset), .Q(Q[4]));
+    d_flip_flop DFF5 (.D(D[5]),   .clk(clk), .reset(reset), .Q(Q[5]));
+    d_flip_flop DFF6 (.D(D[6]),   .clk(clk), .reset(reset), .Q(Q[6]));
+    d_flip_flop DFF7 (.D(D[7]),   .clk(clk), .reset(reset), .Q(Q[7]));
+    d_flip_flop DFF8 (.D(D[8]),   .clk(clk), .reset(reset), .Q(Q[8]));
+    d_flip_flop DFF9 (.D(D[9]),   .clk(clk), .reset(reset), .Q(Q[9]));
+    d_flip_flop DFF10 (.D(D[10]), .clk(clk), .reset(reset), .Q(Q[10]));
+    d_flip_flop DFF11 (.D(D[11]), .clk(clk), .reset(reset), .Q(Q[11]));
+    d_flip_flop DFF12 (.D(D[12]), .clk(clk), .reset(reset), .Q(Q[12]));
+    d_flip_flop DFF13 (.D(D[13]), .clk(clk), .reset(reset), .Q(Q[13]));
+    d_flip_flop DFF14 (.D(D[14]), .clk(clk), .reset(reset), .Q(Q[14]));
+    d_flip_flop DFF15 (.D(D[15]), .clk(clk), .reset(reset), .Q(Q[15]));
+    d_flip_flop DFF16 (.D(D[16]), .clk(clk), .reset(reset), .Q(Q[16]));
+    d_flip_flop DFF17 (.D(D[17]), .clk(clk), .reset(reset), .Q(Q[17]));
+    d_flip_flop DFF18 (.D(D[18]), .clk(clk), .reset(reset), .Q(Q[18]));
+    d_flip_flop DFF19 (.D(D[19]), .clk(clk), .reset(reset), .Q(Q[19]));
+    d_flip_flop DFF20 (.D(D[20]), .clk(clk), .reset(reset), .Q(Q[20]));
+    d_flip_flop DFF21 (.D(D[21]), .clk(clk), .reset(reset), .Q(Q[21]));
+    d_flip_flop DFF22 (.D(D[22]), .clk(clk), .reset(reset), .Q(Q[22]));
+    d_flip_flop DFF23 (.D(D[23]), .clk(clk), .reset(reset), .Q(Q[23]));
+    d_flip_flop DFF24 (.D(D[24]), .clk(clk), .reset(reset), .Q(Q[24]));
+    d_flip_flop DFF25 (.D(D[25]), .clk(clk), .reset(reset), .Q(Q[25]));
+    d_flip_flop DFF26 (.D(D[26]), .clk(clk), .reset(reset), .Q(Q[26]));
+    d_flip_flop DFF27 (.D(D[27]), .clk(clk), .reset(reset), .Q(Q[27]));
+    d_flip_flop DFF28 (.D(D[28]), .clk(clk), .reset(reset), .Q(Q[28]));
+    d_flip_flop DFF29 (.D(D[29]), .clk(clk), .reset(reset), .Q(Q[29]));
+    d_flip_flop DFF30 (.D(D[30]), .clk(clk), .reset(reset), .Q(Q[30]));
+    d_flip_flop DFF31 (.D(D[31]), .clk(clk), .reset(reset), .Q(Q[31]));
+
+endmodule
